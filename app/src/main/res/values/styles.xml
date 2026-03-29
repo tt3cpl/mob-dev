@@ -8,7 +8,7 @@
         <item name="android:textSize">21sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_margin">0.5dp</item>
     </style>
 
     <style name="NumberButtun">
@@ -19,7 +19,7 @@
         <item name="android:textSize">21sp</item>
         <item name="android:textColor">#ffffff</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_margin">0.5dp</item>
     </style>
 
 

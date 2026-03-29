@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/math_operation"
         android:layout_width="match_parent"
-        android:layout_height="80sp"
+        android:layout_height="60sp"
         android:textColor="@android:color/white"
         android:gravity="end"
         android:ellipsize="start"
@@ -22,7 +22,7 @@
     <TextView
         android:id="@+id/result_text"
         android:layout_width="match_parent"
-        android:layout_height="100sp"
+        android:layout_height="80sp"
         android:textColor="@android:color/white"
         android:gravity="end"
         android:ellipsize="end"
