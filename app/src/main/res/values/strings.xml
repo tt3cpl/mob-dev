@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">mobdev</string>
+    <string name="app_name">My Contacts</string>
+    <string name="my_contacts">Мои Контакты</string>
+    <string name="loading_contacts">Загрузка...</string>
+    <string name="contacts_not_found">Контакты не найдены</string>
+    <string name="contacts_found">Контактов найдено: %d</string>
+    <string name="no_permission">Нет прав для просмотра</string>
+    <string name="no_permission_message">Чтобы разрешить надо перейти\n\Настройки -> приложения -> My Contacts -> разрешения</string>
+    <string name="error_loading_contacts">Ошибка загрузки контактов</string>
+    <string name="contact_details">Имя: %s\nТелефон: %s\nПочта: %s</string>
+    <string name="not_specified">Не указано</string>
+    <string name="error_getting_email">Ошибка загрузки почты</string>
 </resources>
