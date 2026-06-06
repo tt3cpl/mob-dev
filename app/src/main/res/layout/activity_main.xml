@@ -2,32 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     android:background="#FFFFFF"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/my_contacts"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:background="#E3F2FD"
         android:gravity="center"
         android:padding="16dp"
-        android:background="#E3F2FD"
-        android:layout_marginBottom="16dp" />
+        android:text="@string/my_contacts"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/statusText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/loading_contacts"
-        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:background="#FFF3E0"
         android:gravity="center"
         android:padding="12dp"
-        android:background="#FFF3E0"
-        android:layout_marginBottom="16dp" />
+        android:text="@string/loading_contacts"
+        android:textSize="16sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/contactsRecyclerView"
