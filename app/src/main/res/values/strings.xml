@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">mobdev</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="back">Назад</string>
+    <string name="send">Отправить</string>
+    <string name="type_message">Введите сообщение</string>
+    <string name="error">Ошибка</string>
+    <string name="ok">ОК</string>
+    <string name="message_image">Изображение сообщения</string>
+    <string name="invalid_credentials">Неверный логин или пароль</string>
+    <string name="select_chat">Выберите чат</string>
+    <string name="loading">Загрузка…</string>
+    <string name="login_failed">Ошибка входа</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="empty_fields">Заполните все поля</string>
+    <string name="send_failed">Ошибка отправки</string>
+    <string name="load_channels_failed">Ошибка загрузки каналов</string>
+    <string name="load_messages_failed">Ошибка загрузки сообщений</string>
 </resources>
